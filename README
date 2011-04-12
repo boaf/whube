@@ -1,0 +1,53 @@
+========================================================================
+===================        WHUBE FRAMEWORK         =====================
+========================================================================
+
+License:        GNU AGPLv3 or later
+Author:         Paul Tagliamonte & The Whube Developers
+E-Fax:          tenach [at] whube [dot] com
+
+========================================================================
+===================           DEDICATION           =====================
+========================================================================
+
+<insert_motivational_speech>
+
+     Viva la Hacking!
+         Thomas Martin ( tenach )
+
+========================================================================
+===================        TECHNICAL SHIT          =====================
+========================================================================
+
+What you will need:
+  * GNU/Linux 
+     ( I'm sure you could get this to work with windows, but that's
+       just all kinds of dumb. Don't use nonfree crap.
+       PLUG: USE UBUNTU! IT WORKS GREAT! <3 UBUNTU!                 )
+
+  * Apache2
+     ( Anything that supports the .htaccess file in the root, with
+       rewrite rules.                                               )
+
+  * PHP
+     ( Well, the whole thing is written in PHP. If you ported this
+       chances are it's not Whube anymore. Ship of Theseus kinda 
+       thing. Although this is not the forum for such talk          )
+
+  * MySQL
+     ( Out of any of the things above, this is the most flexible. 
+       All you have to do is rewrite model/sql.php to work with 
+       whatever SQL server you fancy. Rewrite dbobj if you don't
+       want SQL. Although that, is kinda dumb.                      )
+
+========================================================================
+===================             SETUP              =====================
+========================================================================
+
+# Setup Wizard.
+cd install
+./install.sh
+
+========================================================================
+ .
+..:

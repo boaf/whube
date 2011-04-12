@@ -1,0 +1,395 @@
+body {
+	background-color:     #E9CC9D;
+	font-family:          "Ubuntu", "UbuntuBeta", "Lucida Grande", "Trebuchet MS", sans-serif;
+	/*
+	 * Padding and margin are set to zero
+	 * so that there are no ugly spaces.
+	 */
+	padding:              0px;
+	margin:               0px;
+}
+
+a:visited {
+	color:                #523a1c;
+}
+
+.code-snip {
+	font-family:          monospace;
+	background-color:     #000000;
+	color:                #FFFFFF;
+	padding:              10px;
+
+	-moz-border-radius:   5px;
+	-webkit-border-radius:5px;
+	/*
+	 * Remove the -moz and -webkit
+	 * stuff when CSS3 is working n' shit.
+	 */
+}
+
+a {
+	color:                #523a1c;
+}
+
+h1 {
+	font-size:            1.2em;
+	border-bottom:        1px solid #000000;
+	font-variant:         small-caps;
+}
+
+.sorttable_sorted_reverse {
+	background-image:     url(../imgs/sort-reverse.png);
+	background-position:  bottom right;
+	background-repeat:    no-repeat;
+}
+
+.sorttable_sorted {
+	background-image:     url(../imgs/sort-regular.png);
+	background-position:  bottom right;
+	background-repeat:    no-repeat;
+}
+
+table {
+	font-size:            0.8em;
+	width:                100%;
+	border-spacing:       0px 0px;
+}
+
+tr {
+	width:                100%;
+}
+
+.highlight {
+	background-image:     url(../imgs/bg-xp-w.png);
+}
+.highlight-hold {
+	background-image:     url(../imgs/bg-xp-w.png);
+}
+
+.sortable tr {
+	width:                100%;
+}
+
+.nobg {
+	background-image:     none;
+}
+
+th {
+	border-bottom:        1px solid #000000;
+	padding:              5px;
+	text-align:           left;
+}
+
+td {
+	padding:              5px;
+}
+
+a img {
+	border:               0px solid #000000;
+}
+
+#edit-bug {
+	 display:             none;
+}
+
+.tweet-tweet {
+	position:             absolute;
+
+	top:                  175px;
+	left:                 200px;
+
+	padding-left:         100px;
+
+	font-size:            1em;
+	font-weight:          bold;
+	background-image:     url(../imgs/twetter.png);
+	background-repeat:    no-repeat;
+	height:               50px;
+	min-width:            100px;
+	width:                800px;
+}
+
+
+.tweet-text {
+	height:               50px;
+	width:		      400px;
+	background-color:     #f6ef91;
+	color:                #000000;
+	font-size:	      80%;
+	vertical-align:       middle;
+	display:              table-cell;
+}
+
+.tweet-text a {
+	color:                #000000;
+}
+
+.shim {
+	padding:              10px;
+	padding-right:        30px;
+}
+
+.nav {
+	font-variant:         small-caps;
+	font-size:            0.8em;
+	background-color:     #470000;
+	color:                #FFFFFF;
+	padding:              10px;
+	height:               20px;
+}
+
+.foot .nav {
+	background-color:     transparent;
+	font-size:            1em;
+}
+
+.nav a {
+	color:                #FFFFFF;
+}
+
+.splash {
+	background-color:     #9d0000;
+	border-bottom:        1px solid #000000;
+}
+
+.badge {
+	position:             absolute;
+	top:                  40px;
+	left:                 0px;
+	height:               207px;
+	width:                207px;
+}
+
+.eyecandy {
+	background-image:     url(../imgs/splash-head.png);
+	height:               208px;
+	background-repeat:    no-repeat;
+	width:                800px;
+	margin-left:          auto;
+	margin-right:         auto;
+}
+
+.clear {
+	clear:                both;
+}
+
+.f-left {
+	float:                left;
+}
+
+.f-right {
+	float:                right;
+}
+
+.item {
+	background-image:     url(../imgs/bg-xp-b.png);
+	width:                400px;
+	margin:               20px;
+	padding:              5px;
+}
+
+.item-c {
+	background-color:     #E9CC9D;
+	padding:              8px;
+	margin:               3px;
+}
+
+.foot {
+	min-height:           200px;
+	font-variant:         small-caps;
+	background-color:     #470000;
+	color:                #FFFFFF;
+	text-align:           center;
+	font-size:            0.8em;
+	padding-top:          10px;
+	border-top:           1px solid #000000;
+	width:                100%;
+	background-position:  center center;
+	background-image:     url(../imgs/shoe.png);
+	background-repeat:    repeat-x;
+}
+
+.f-item {
+	float:                left;
+	padding:              5px;
+}
+
+.f-item h1 {
+	border-bottom:        1px solid #FFFFFF;
+}
+
+
+.lookatme {
+	position:             fixed;
+	top:                  0px;
+	left:                 0px;
+	width:                100%;
+	height:               100%;
+	background-image:     url(../imgs/bg-xp-b.png);
+}
+
+.prompt {
+	width:                 800px;
+	height:                500px;
+	margin-left:           auto;
+	margin-right:          auto;
+	background-color:      #DCDCDC;
+	margin-top:            50px;
+	overflow:              scroll;
+	border:                4px solid #ECECEC;
+}
+
+.ok {
+	background-color:     #9FF087;
+}
+
+.meh {
+	background-color:     #DCDCDC;
+}
+
+.center {
+	text-align:           center;
+}
+
+.shade {
+	border-bottom:        1px solid #000000;
+}
+
+.shit {
+	background-color:     #E16043;
+}
+
+.itsme {
+	color:                #5af477;
+}
+
+.goodthings {
+	color:                #007304;
+}
+
+.badthings {
+	color:                #FF0000;
+}
+
+.term {
+	min-height:           400px;
+	width:                100%;
+	background-color:     #000000;
+	padding:              5px;
+	font-size:            1.3em;
+}
+
+.message {
+	position:             fixed;
+	top:                  10px;
+	right:                10px;
+
+	width:                300px;
+	height:               70px;
+
+	border:               1px solid #523921;
+
+	background-color:     #FFFFB6;
+	color:                #000000;
+	font-size:            0.80em;
+
+	-moz-border-radius:   10px;
+	-webkit-border-radius:10px;
+
+	margin:               5px;
+}
+
+.growl-content {
+	padding:              5px;
+	padding-left:         60px;
+}
+
+.growl-ok {
+	float:                left;
+	-moz-border-radius-bottomleft:     10px;
+	-moz-border-radius-topleft:        10px;
+
+	width:                50px;
+	height:               100%;
+	background-color:     #5497D5;
+}
+
+.growl-shit {
+	float:                left;
+	-moz-border-radius-bottomleft:     10px;
+	-moz-border-radius-topleft:        10px;
+
+	width:                50px;
+	height:               100%;
+	background-color:     #cc0000;
+}
+
+.error {
+	background-color:     #c12300;
+}
+
+.editme {
+}
+
+.content {
+	padding:              10px;
+	margin:               10px;
+}
+
+.container {
+	width:                900px;
+	margin-left:          auto;
+	margin-right:         auto;
+}
+
+input, textarea {
+	border:               1px solid #000000;
+	background-color:     #F6DCB2;
+
+}
+
+.bigme {
+	padding-left:         40px;
+	height:               32px; /* ICONASAURIS */
+	font-size:            20px;
+	background-repeat:    no-repeat;
+}
+
+.name {
+	background-image:     url(../imgs/user.png);
+}
+
+.password {
+	background-image:     url(../imgs/pass.png);
+}
+
+.holder {
+	min-height:           400px;
+}
+
+.comment {
+	background-image:     url(../imgs/bg-xp-b.png);
+	border:               1px solid #000000;
+	padding:              5px;
+	margin-bottom:        10px;
+}
+
+.comment_head a, .comment a {
+	color:                #FFFFFF;
+}
+
+.comment {
+	color:                #FFFFFF;
+}
+
+.comment_head {
+	background-image:     url(../imgs/bg-xp-b.png);
+	border:               1px solid #000000;
+	border-bottom:        0px solid #000000;
+	padding:              5px;
+}
+
+/* Om nom a nom nom nom */
+#firstname { /* Bogus shit bots usually fall for. */
+	display:none;
+}

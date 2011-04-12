@@ -1,0 +1,29 @@
+BIG SCARRY GODDAMN WARNING
+
+CONSIDER THIS YOUR LAST CHANCE. 
+
+
+
+HOOKS CAN DOS THE SYSTEM. DON'T BE AN ASSHOLE.
+
+
+   APACHE GOODNESS     STUPID BLOCKING WRITES        APACHE GOODNESS
+  |---------------||------------------------------||-----------------|
+  |               ||                              ||                 |
+
+  REQUEST ----> BACKEND  - - - - - - - - - - - - +----> VEND RESPONSE
+                   \--- WRITE ->    foo.hook    /
+                    \-- WRITE ->    bar.hook   /
+                     \- WRITE ->    baz.hook  /
+                      +----------------------+
+
+                      |                      |
+                      |----------------------|  <--- TO GET HERE YOU NEED TO HAVE EVERY
+                         THANK BABY JESUS             PIPE FLUSHED. *EVERY* *PIPE*
+                             WE'RE OK                 ONE PLUGIN CAN FSCK THE SYSTEM
+
+EACH GODDAMN .hook IS A FIFO PIPE. YES, THAT'S BLOCKING.
+IF YOU DON'T READ FAST ENOUGH YOU WILL CAUSE MANY PEOPLE GREAT PAIN.
+
+GREAT PAIN.
+
