@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+
+   RewriteEngine On
+   RewriteRule ^t/(.*+)      controller.php?p=$1       [NC]
+   RewriteRule ^l/(.*+)      libs/php/$1.php           [NC]
+
+   RewriteRule ^api/(.*+)    libs/php/api.php?p=$1     [NC]
+
+</IfModule>
